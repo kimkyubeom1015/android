@@ -1,0 +1,18 @@
+도움말
+
+오류뜰때 가이드스크립에서 build.gradle.kts 에서 맨아래를
+implementation("androidx.appcompat:appcompat:1.7.0")
+    implementation("com.google.android.material:material:1.12.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    testImplementation("junit:junit:4.13.2")
+    androidTestImplementation("androidx.test.ext:junit:1.2.1")
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.6.1") 
+로 변경
+
+
+java부분에서 mainactivity에서 17줄부터 주석처리한다음 사용하는 곳만 주석풀기
+그리고 self부분에서 맨윗줄 이름 바꿔주고 그아래 class옆에 이름 변경하기
+그리고 아래 layout.main~을 바꿔주기
+
+
+
